@@ -27,4 +27,6 @@
 2. pip install -r requirements.txt
 
 ### Ссылка на датасет
-https://drive.google.com/file/d/1rrGT12ypL9e-JQXfUpVMh1KEQdqwTefi/view?usp=sharing
+https://drive.google.com/file/d/1T9Hf1MMogOZl8r3KZGfuCbFjbB_SACdz/view?usp=sharing
+
+https://drive.google.com/file/d/1KAHgf-v_zVJ2--KWWn1167jwx0JPnETN/view?usp=sharing
