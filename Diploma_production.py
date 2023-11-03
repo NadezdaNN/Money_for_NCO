@@ -16,10 +16,9 @@ def predict():
         okved = request.form.get('okved')
         addOkved = request.form.get('addOkved')
         age = request.form.get('age')
-        pr = func_predict(region, opf, okved, addOkved, age)      
-        print(pr)  
-        
-        return render_template('predict.html', message = pr) 
+        pr = func_predict(region, opf, okved, addOkved, age)    
+                
+        return render_template('predict.html', message = pr)
     else:
         return render_template('predict.html', message = pr)
 
