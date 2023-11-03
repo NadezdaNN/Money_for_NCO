@@ -14,12 +14,12 @@
       <div class="A1">           
         <select name="region" id="region">
           <option value="">--Please choose an region--</option>
-          <option value="dog">Москва</option>
-          <option value="cat">Московская область</option>
-          <option value="hamster">Санкт-Петербург</option>
-          <option value="parrot">Краснодарский край</option>
-          <option value="spider">Ненецкий автономный округ</option>
-          <option value="goldfish">Не определено</option>
+          <option value="Москва">Москва</option>
+          <option value="Московская область">Московская область</option>
+          <option value="Санкт-Петербург">Санкт-Петербург</option>
+          <option value="Краснодарский край">Краснодарский край</option>
+          <option value="Ненецкий автономный округ">Ненецкий автономный округ</option>
+          <option value="Не определено">Не определено</option>
         </select>       
       </div>
       <div class="B"> 
@@ -28,12 +28,12 @@
       <div class="B1">          
         <select name="opf" id="opf">
           <option value="">--Please choose an opf--</option>
-          <option value="dog">Общественные организации</option>
-          <option value="cat">Общественная или религиозная организация (объединение)</option>
-          <option value="hamster">Гаражные и гаражно-строительные кооперативы</option>
-          <option value="parrot">Автономные некоммерческие организации</option>
-          <option value="spider">Потребительский кооператив</option>
-          <option value="goldfish">unknown</option>
+          <option value="Общественные организации">Общественные организации</option>
+          <option value="Общественная или религиозная организация (объединение)">Общественная или религиозная организация (объединение)</option>
+          <option value="Гаражные и гаражно-строительные кооперативы">Гаражные и гаражно-строительные кооперативы</option>
+          <option value="Автономные некоммерческие организации">Автономные некоммерческие организации</option>
+          <option value="Потребительский кооператив">Потребительский кооператив</option>
+          <option value="unknown">unknown</option>
         </select>    
       </div>
       <div class="C"> 
@@ -42,12 +42,12 @@
       <div class="C1">         
         <select name="okved" id="okved">
           <option value="">--Please choose an okved--</option>
-          <option value="dog">Деятельность прочих общественных организаций, не включенных в другие группировки </option>
-          <option value="cat">Деятельность стоянок для транспортных средств</option>
-          <option value="hamster">Деятельность религиозных организаций</option>
-          <option value="parrot">Управление эксплуатацией жилого фонда за вознаграждение или на договорной основе</option>
-          <option value="spider">Деятельность профессиональных союзов</option>
-          <option value="goldfish">unknown</option>
+          <option value="Деятельность прочих общественных организаций, не включенных в другие группировки">Деятельность прочих общественных организаций, не включенных в другие группировки</option>
+          <option value="Деятельность стоянок для транспортных средств">Деятельность стоянок для транспортных средств</option>
+          <option value="Деятельность религиозных организаций">Деятельность религиозных организаций</option>
+          <option value="Управление эксплуатацией жилого фонда за вознаграждение или на договорной основе">Управление эксплуатацией жилого фонда за вознаграждение или на договорной основе</option>
+          <option value="Деятельность профессиональных союзов">Деятельность профессиональных союзов</option>
+          <option value="unknown">unknown</option>
         </select> 
       </div>
       <div class="D"> 
@@ -56,11 +56,11 @@
       <div class="D1">          
         <select name="addOkved" id="addOkved">
           <option value="">--Please choose an addOkved--</option>
-          <option value="dog">Управление эксплуатацией нежилого фонда</option>
-          <option value="cat">Деятельность в области спорта прочая</option>
-          <option value="hamster">Управление эксплуатацией нежилого фонда за вознаграждение или на договорной основе</option>
-          <option value="parrot">Деятельность прочих общественных организаций, не включенных в другие группировки</option>
-          <option value="goldfish">undefined</option>
+          <option value="Управление эксплуатацией нежилого фонда">Управление эксплуатацией нежилого фонда</option>
+          <option value="Деятельность в области спорта прочая">Деятельность в области спорта прочая</option>
+          <option value="Управление эксплуатацией нежилого фонда за вознаграждение или на договорной основе">Управление эксплуатацией нежилого фонда за вознаграждение или на договорной основе</option>
+          <option value="Деятельность прочих общественных организаций, не включенных в другие группировки">Деятельность прочих общественных организаций, не включенных в другие группировки</option>
+          <option value="undefined">undefined</option>
         </select> 
       </div>
       <div class="E"> 
@@ -75,9 +75,12 @@
       <div class="G"> 
         <label> Вероятность получения гос. финансирования (%): </label>
       </div>
+
       <div class="G1"> 
-        <input type="text" id="ver" name="ver" style="height:100%; width:100%"> 
-      </div>
+        {% if message %}
+        <p>{{ message }}</p>
+        {% endif %}
+      </div>      
   </div>  
   </form>
 </body>
