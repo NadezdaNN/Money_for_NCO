@@ -23,7 +23,7 @@
 
 ### Как установить проект
 Выполнить следующие команды в терминале:
-1. git clone https://github.com/NadezdaNN/Diploma
+1. git clone https://github.com/NadezdaNN/Money_for_NCO.git
 2. pip install -r requirements.txt
 
 ### Ссылка на датасет
