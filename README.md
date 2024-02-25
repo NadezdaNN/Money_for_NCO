@@ -36,7 +36,7 @@
 1. git clone https://github.com/NadezdaNN/Money_for_NGO.git
 2. Создать виртуальное окружение (в Windows): python -m venv .venv
 3. Активировать его (в Windows): .venv/Scripts/Activate.ps1
-4. pip install -r requirements.txt
+4. Установить зависимости: pip install -r requirements.txt
 
 ### Ссылка на датасет
 https://drive.google.com/file/d/1T9Hf1MMogOZl8r3KZGfuCbFjbB_SACdz/view?usp=sharing
