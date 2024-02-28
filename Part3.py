@@ -1,7 +1,4 @@
 from flask import Flask, render_template, request, json
-#from contextlib import contextmanager
-#from flask import template_rendered
-from concurrent.futures import ThreadPoolExecutor
 import webbrowser
 from myPredict import*
 
