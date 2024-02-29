@@ -24,4 +24,4 @@ def func_predict(region, opf, okved, addOkved, age):
     #Делаем предсказание вероятностей:
     y_new_proba_predict = model.predict_proba(tmp_bin.iloc[[-1]])
     
-    return str(y_new_proba_predict[0,1])
+    return str(round(y_new_proba_predict[0,1],3)*100)
