@@ -39,6 +39,5 @@
 4. Установить зависимости: pip install -r requirements.txt
 
 ### Ссылки на датасет и другие файлы
-https://drive.google.com/file/d/1T9Hf1MMogOZl8r3KZGfuCbFjbB_SACdz/view?usp=sharing
 
-https://drive.google.com/file/d/1KAHgf-v_zVJ2--KWWn1167jwx0JPnETN/view?usp=sharing
+https://drive.google.com/drive/folders/1w5n_qB5tEG7zKyfBIbCHrnKBmL6es7ag?usp=sharing
