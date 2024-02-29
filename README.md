@@ -41,3 +41,5 @@
 ### Ссылки на датасет и другие файлы
 
 https://drive.google.com/drive/folders/1w5n_qB5tEG7zKyfBIbCHrnKBmL6es7ag?usp=sharing
+
+https://drive.google.com/drive/folders/1EO_OeOH7WoFX7LSlHmrJ1eNsebfWauPv?usp=sharing
