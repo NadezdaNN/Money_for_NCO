@@ -11,13 +11,12 @@ def get_len():
     opf = request.form.get('opf')
     okved = request.form.get('okved')
     addOkved = request.form.get('addOkved')
-    age = request.form.get('age')
-    proba = func_predict(region, opf, okved, addOkved, age)  
-    
+    age = request.form.get('age')    
+    proba = func_predict(region, opf, okved, addOkved, age)      
     return json.dumps({'proba': proba})
 
   
-@app.route('/predict', methods=['GET','POST'])
+@app.route('/predict')
 def predict():                
     return render_template('predict.html') 
 
